@@ -73,10 +73,16 @@
 /* My Styles */
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 5fr 5fr 1fr;
     margin: 0;
     padding: 0;
+}
+
+.zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .green {
@@ -98,7 +104,7 @@ body {
 .blue {
     display: grid;
 	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 .card {
     padding: 4rem 7rem;
