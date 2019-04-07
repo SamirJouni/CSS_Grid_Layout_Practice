@@ -95,3 +95,21 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
+.blue {
+    display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.card {
+    padding: 4rem 7rem;
+    background: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 12rem;
+    max-height: 12rem;
+    border-radius: .3rem;
+}
+.card img {
+    max-width: 7rem;
+}
