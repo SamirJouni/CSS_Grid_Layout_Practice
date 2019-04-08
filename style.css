@@ -103,6 +103,11 @@ body {
 }
 .cover-container {
     height: 50vh;
+    position: relative;
+}
+.cover-container img {
+    width: auto;
+    height: 100%;
 }
 .card-container {
     display: grid;
