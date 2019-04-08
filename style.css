@@ -84,7 +84,7 @@ body {
     align-items: center;
 }
 
-.green {
+.navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -101,10 +101,10 @@ body {
     color: #ffffff;
     font-size: 2vmax;
 }
-.red {
+.cover-container {
     height: 50vh;
 }
-.blue {
+.card-container {
     display: grid;
 	grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
