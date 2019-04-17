@@ -84,25 +84,25 @@ body {
     align-items: center;
 }
 
-.navbar {
+.nav-links {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    font-size: .8em;
 }
 
-.nav-links li {
-    list-style-type: none;
-}
 
 .nav-links li a{
     padding: 0 .7rem;
 }
-.nav-links li a,
-.contact a {
+.nav-links li a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.8vmax;
+}
+.contact {
+    margin-left: auto;
 }
 .cover-container {
     height: 60vh;
