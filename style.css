@@ -1,5 +1,5 @@
 .zone {
-    padding:30px 50px;
+    padding:15px 40px;
     cursor:pointer;
     display:inline-block;
     color:#FFF;
@@ -92,6 +92,15 @@ body {
     list-style-type: none;
     font-size: .8em;
 }
+
+    @media only screen and (max-width: 600px) {
+        .zone{
+            padding: 5px 10px;
+        }
+        .nav-links {
+            font-size: .6em;
+        }
+    }
 
 
 .nav-links li a{
