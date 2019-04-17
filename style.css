@@ -91,11 +91,14 @@ body {
     justify-content: space-between;
 }
 
-.nav-links a{
-    padding: 0 .7rem;
+.nav-links li {
+    list-style-type: none;
 }
 
-.nav-links a,
+.nav-links li a{
+    padding: 0 .7rem;
+}
+.nav-links li a,
 .contact a {
     text-decoration: none;
     color: #ffffff;
