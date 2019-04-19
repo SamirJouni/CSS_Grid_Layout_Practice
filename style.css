@@ -139,6 +139,6 @@ body {
     max-height: 12rem;
     border-radius: .3rem;
 }
-.card img {
+.card > img {
     max-width: 8rem;
 }
