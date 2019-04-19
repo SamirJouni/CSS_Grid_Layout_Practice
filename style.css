@@ -140,5 +140,5 @@ body {
     border-radius: .3rem;
 }
 .card > img {
-    max-width: 8rem;
+    width: 100%;
 }
