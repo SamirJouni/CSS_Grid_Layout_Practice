@@ -117,7 +117,7 @@ body {
     height: 60vh;
     position: relative;
 }
-.cover-container img {
+.cover-container > img {
     width: auto;
     height: 80%;
 }
