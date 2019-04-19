@@ -117,7 +117,7 @@ body {
     height: 60vh;
     position: relative;
 }
-.cover-container img {
+.cover-container > img {
     width: auto;
     height: 80%;
 }
@@ -139,6 +139,6 @@ body {
     max-height: 12rem;
     border-radius: .3rem;
 }
-.card img {
+.card > img {
     max-width: 8rem;
 }
