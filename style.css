@@ -130,7 +130,7 @@ body {
     align-items: stretch;
 }
 .card {
-    padding: 4rem 7rem;
+    padding: 7rem 7rem;
     background: darkslategray;
     display: flex;
     justify-content: center;
