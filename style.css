@@ -77,6 +77,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .zone {
@@ -148,6 +149,10 @@ body {
     max-width: 12rem;
     max-height: 12rem;
     border-radius: .3rem;
+    transition: transform .3s ease-in-out;
+}
+.card:hover {
+    transform: rotate(5deg);
 }
 .card > img {
     width: 100%;
