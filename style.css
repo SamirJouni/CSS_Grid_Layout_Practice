@@ -99,6 +99,8 @@ body {
     width: 100%;
     list-style-type: none;
     font-size: .8em;
+    margin: 0;
+    padding: 0;
 }
 
     @media only screen and (max-width: 600px) {
